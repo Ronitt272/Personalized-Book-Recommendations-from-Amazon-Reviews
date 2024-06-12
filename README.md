@@ -30,6 +30,7 @@ As part of the project, we have performed Sentiment Analysis using the columns �
 **4. Random Forest** - We trained a random forest model with 100 estimators and a maximum depth of 30 to mitigate the impact of overfitting. The random forest model had a good accuracy of 85%. While precision is high across the 3 classes, recall scores for negative and neutral classes are poor. Couple with a near-perfect recall score for the positive class, this shows the model was not generalizing well over this imbalanced dataset.
 
 Scores for different sentiment analysis models tested
+
 table here
 
 # Recommendation System
@@ -49,11 +50,14 @@ The collaborative filtering model is used to predict user preferences and recomm
 **2) Content-based Filtering Recommendation System**
 
 For the purpose of providing recommendations for books, the book attributes that we have considered are: ‘Title’, ‘authors’ and ‘categories’. We applied TF-IDF Vectorization on the concatenation of these three columns to produce the TF-IDF matrix, whose dimensionality is reduced to 100 components using Singular Value Decomposition (SVD). 1% of the books are sampled from the dataset randomly to avoid Memory Limit Exceeded errors during the generation of cosine similarity matrix due to the enormous size of the dataset. The matrix obtained after sampling of the SVD matrix is used for the generation of the cosine similarity matrix. The cosine similarity matrix quantifies the similarity between all pairs of books in the dataset. The key idea is that books that are similar to each other, based on the book attributes ('Title', 'authors', and 'categories') have higher cosine similarity scores. Therefore, The cosine similarity matrix enables us to recommend books that are content-wise similar to a particular book.       
+
 **Conclusion/Limitations**
+
 
 According to the wordcloud from the EDA analysis, there is no big difference between word frequency for review scores less or equal to 3 and greater than 3. The Collaborative Filtering (Model 1) and Content-Based Filtering efficiently provide recommending book titles based on the user similarity and features similarity. The Collaborative Filtering (Model 2) effectively predicts ratings with rmse of 1.0535 and provides recommending book titles. In the Collaborative Filtering Model 2, even though multiple epochs could be implemented to minimize loss and improve recommendation accuracy, but due to time and memory constraints, 1 epoch has been implemented in this project. For the NLP sentiment analysis task, we found that the logistic regression model performed the best, with the highest accuracy, F1 and AUC-ROC.
 
 **References**
+
 [1] Fang, X., Zhan, J. Sentiment analysis using product review data. Journal of Big Data 2, 5 (2015). https://doi.org/10.1186/s40537-015-0015-2
 [2] Miller, Chris. "Build a Recommendation Engine With Collaborative Filtering." Real Python, 20 Aug. 2020, realpython.com/build-recommendation-engine-collaborative-filtering/.
 
