@@ -13,8 +13,8 @@ In today's digital shopping landscape, platforms like Amazon offer vast book sel
 These are some of the important insights that we derived from the exploratory data analysis.
 
 <p align="center">
-  <img src="images/top_genre_counts.png" alt="Exploratory Data Analysis Results" height=800>
-  <img src="images/distribution_of_sentiments.png" alt="Exploratory Data Analysis Results" height=800>
+  <img src="images/top_genre_counts.png" alt="Exploratory Data Analysis Results" height=500>
+  <img src="images/distribution_of_sentiments.png" alt="Exploratory Data Analysis Results" height=500>
 </p>
 
 Figure 1: Fiction has the greatest count of masterpieces                
