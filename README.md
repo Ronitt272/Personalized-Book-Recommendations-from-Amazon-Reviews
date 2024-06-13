@@ -6,7 +6,7 @@ This project was developed as part of a team for the COMS-4995: Applied Machine 
 
 Kaggle link: https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews
 
-The Kaggle dataset for Amazon Books Reviews consists of two csv files: Books_rating.csv (consists of the reviews corresponding to each of the books) and books_data.csv (contains the details corresponding to each of the books). We decided to merge the two csv files, so that the merged dataset is easier to handle and process. 
+The Kaggle dataset for Amazon Books Reviews consists of two csv files: Books_rating.csv (contains the details of the reviews corresponding to each of the books) and books_data.csv (contains details on each of the books). We decided to merge the two csv files, so that the merged dataset is easier to handle and process. 
 
 Merged dataset link: https://drive.google.com/file/d/1WaNVo7vTBvqqQVDHM-u--z9hDFAAF9VX/view?usp=drive_link
 
