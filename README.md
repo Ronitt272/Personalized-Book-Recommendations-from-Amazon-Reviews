@@ -12,7 +12,7 @@ In today's digital shopping landscape, platforms like Amazon offer vast book sel
 
 These are some of the important insights that we derived from the exploratory data analysis.
 
-![Exploratory Data Analysis Results]("C:\Users\user\Downloads\image_1_github_applied_ml.png")
+![Exploratory Data Analysis Results](".\Downloads\image_1_github_applied_ml.png")
 
 Figure 1: Fiction has the greatest count of masterpieces                
 Figure 2: Most of the texts are positive and only a few of the texts are neutral or negative.
