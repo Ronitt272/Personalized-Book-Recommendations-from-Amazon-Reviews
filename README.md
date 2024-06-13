@@ -40,11 +40,11 @@ As part of the project, we have performed Sentiment Analysis using the columns â
 
 Scores for different sentiment analysis models tested
 
-| Model | Accuracy | Weighted Average Precision | Weighted Average Recall | Weighted Average F1 | Weighted Average ROC-AUC |
+| **Model** | **Accuracy** | **Weighted Average Precision** | **Weighted Average Recall** | **Weighted Average F1** | **Weighted Average ROC-AUC** |
 |:-------------:|:--------------:|:--------------:|:-------------:|:--------------:|:--------------:|
 | Naive Bayes         | 0.66           | 0.84          | 0.66         | 0.72           | 0.81          |
-| Random Forest         | 0.85           | 0.87          | 0.85         | 0.80           | 0.89          |
-| Logistic Regression         | 0.87           | 0.85          | 0.87         | 0.85           | 0.89          |
+| Random Forest         | 0.85           | **0.87**          | 0.85         | 0.80           | **0.89**          |
+| Logistic Regression         | **0.87**           | 0.85          | **0.87**         | **0.85**           | **0.89**          |
 | LSTM         | 0.84           | Text          | 0.82         | 0.84           | 0.80          |
 
 # Recommendation System
