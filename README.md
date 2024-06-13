@@ -4,6 +4,12 @@ This project was developed as part of a team for the COMS-4995: Applied Machine 
 
 # Dataset
 
+Kaggle link: https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews
+
+The Kaggle dataset for Amazon Books Reviews consists of two csv files: Books_rating.csv (consists of the reviews corresponding to each of the books) and books_data.csv (contains the details corresponding to each of the books). We decided to merge the two csv files, so that the merged dataset is easier to handle and process. 
+
+Merged dataset link: https://drive.google.com/file/d/1WaNVo7vTBvqqQVDHM-u--z9hDFAAF9VX/view?usp=drive_link
+
 # Introduction
 
 In today's digital shopping landscape, platforms like Amazon offer vast book selections, overwhelming readers seeking personalized recommendations. Our project aims to address this challenge by leveraging the Amazon Books Reviews dataset to develop a recommendation system. By analyzing user feedback and book attributes, we seek to provide tailored book suggestions, enhancing readers' literary journey.  “Amazon Books Reviews” combines Amazon Review and Google Books API data, comprising millions of user reviews on over 200,000 books. It includes user-specific details and book attributes, forming a rich resource for analysis.
